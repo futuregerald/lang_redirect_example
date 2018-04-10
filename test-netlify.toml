@@ -1,4 +1,10 @@
 [[redirects]]
+from = "/asset/*"
+to = "/assets/:splat"
+status = 302
+conditions = {Language = ["en"]}
+
+[[redirects]]
 from = "/*"
 to = "/en/:splat"
 status = 302
