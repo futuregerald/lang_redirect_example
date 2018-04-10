@@ -4,3 +4,10 @@ to = "/en/:splat"
 status = 302
 force = false
 conditions = {Language = ["en"]}
+
+[[redirects]]
+from = "/*"
+to = "/ko/:splat"
+status = 302
+force = false
+conditions = {Language = ["ko"]}
